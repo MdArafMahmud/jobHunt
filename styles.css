@@ -1,0 +1,65 @@
+
+
+/* .navbar{
+  display: flex;
+  
+} */
+
+.display-flex{
+  display: flex;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-weight: 500px;
+}
+
+.navbar{
+  justify-content: space-between;
+}
+
+.my-button{
+  background-color: blueviolet;
+}
+
+.violet{
+  color: blueviolet;
+}
+
+.orange{
+  color:orange;
+}
+
+.center{
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.top, .bottom{
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+
+.upper{
+  /* margin-top: 20px; */
+  text-align:center;
+  /* height: 50vh; */
+  /* display: flex; */
+  flex-direction: column;
+  /* margin-top: 5rem; */
+  justify-content: flex-start;
+  /* margin-top: 0; */
+}
